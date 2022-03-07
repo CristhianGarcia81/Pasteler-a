@@ -1,0 +1,81 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+.titulo
+{
+    margin: auto;
+    color: #0066cc;
+    font-size: 60px;
+    text-align: center;
+    font-style: italic;
+}
+
+.navegador
+{
+    text-align: right;
+    padding: 30px 50px 0 0;
+    color: black;
+    font-family: 'arial';
+}
+
+.navegador > a
+{
+    color: #000000;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.navegador > a:hover
+{
+    text-decoration: underline;
+}
+
+.button
+{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.tipos
+{
+    margin: auto;
+    text-align: center;
+    font-family: 'arial';
+    color: blue;
+    padding: 50px;
+    font-size: 20px;
+}
+
+.img
+{
+    display: block;
+    margin: auto;
+    padding: 5px;
+}
+
+.precio
+{
+    color: #000000;
+    text-align: center;
+    margin: center;
+    font-family: 'arial';
+}
+
+.links
+{
+    text-decoration: underline;
+    color: black;
+}
+
+.logotipo
+{
+    display: block;
+    margin: auto;
+    padding: 5px;
+}

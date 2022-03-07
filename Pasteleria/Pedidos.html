@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "shortcut icon" href="img/Logotipo.png">
+    <link rel = "stylesheet" href="CSS/estilos.css">
+    <title>Pedido</title>
+    <nav class="navegador">
+        <a href = "main.html">Inicio</a>
+        <a href = "Pedidos.html">Hacer Pedido</a>
+        <a href = "Cliente_inicio.html">Pasteles</a>
+        <a href = "Arreglos.html">Arreglos</a>
+    </nav>
+</head>
+<body>
+    <form name="forma01" action="recibe.html" method="POST">
+		<label>
+			Nombre:
+			<input id="campo1" type="text" name="nombre" placeholder="Escribe tu nombre" required>
+		</label>
+		
+		<br>
+		<label>Correo:</label>
+		<input type="email" name="correo" value="correo">
+		<br>
+        <label>Telefono:</label>
+		<input id="campo1" type="text" name="nombre" placeholder="Escribe tu numero" required>
+		<br>
+		<label for="descripcion">Decripcion del pastel:</label><br>
+		<textarea name="descripcion" cols="30" rows="5"></textarea>
+		<br>
+		<label for="Sabores">Elige sabor:</label><br>
+		<select name="Sabores"><br>
+			<option value="0" selected>Selecciona</option><br>
+			<option value="1">Choclate</option>
+			<option value="2">Fresa</option>
+            <option value="3">Tres leches</option>
+			<option value="4">Zanahoria</option>
+            <option value="5">Combinado (Describa que sabores quiere combinar)</option><br>
+		</select><br>
+        <label for="descripcion2">Decripcion del pastel:</label><br>
+		    <textarea name="descripcion2" cols="30" rows="5"></textarea>
+        <br>
+        <label for="Sabores">Elige Arreglo:</label>
+        <select name="arreglos">
+			<option value="0" selected>Selecciona</option>
+			<option value="1">Boda</option>
+			<option value="2">XV años</option>
+            <option value="3">Flores</option>
+            <option value="4">Combinado (Describa que sabores quiere combinar)</option>
+		</select>
+        <br>
+        <label for="descripcion3">Decripcion del arreglo:</label><br>
+		    <textarea name="descripcion3" cols="30" rows="5"></textarea>
+		
+	</form>
+</body>
+</html>
